@@ -1,6 +1,6 @@
 /*
   ========================================
-  Custom styles
+  Custom styles work nav lis
   ========================================
 */
 
@@ -245,8 +245,14 @@ p a {
   ========================================
 */
 
-.nav {
-  text-align: right;
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+  color: yellow;
+}
+nav li:last-child {
+  margin-right: 0;
 }
 
 /*
